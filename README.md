@@ -12,8 +12,10 @@
 - Swap the static data with your query database
 
 #### Install and test
-- npm i
-- npm run dev
+```
+npm i
+npm run dev
+```
 
 #### Basic usage of fetcher with auth
 ```
