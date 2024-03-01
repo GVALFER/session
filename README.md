@@ -5,3 +5,8 @@
 - NodeJS Express as external API
 - fetcher with auth
 - Rotative accessToken and refreshToken
+
+
+#### How to use:
+- Clone and test
+- Swap the static data with your query database
