@@ -37,7 +37,7 @@ const generateRefreshToken = async ({ tokenId, userId }) => {
         //     await prisma.sessions.delete({ where: { id: tokenId } });
         // }
 
-        // // If the user is an admin, add the adminId to the data
+        // get the session
         // const createToken = await prisma.sessions.create({
         //     data: {
         //         id: uuid(),
