@@ -31,6 +31,10 @@ const Component = async () => {
   const user = await post("/api/users", { name: "John Doe" });
   console.log(user);
 
+  // PUT
+  const user = await put("/api/users", { name: "John Doe" });
+  console.log(user);
+
   // DELETE
   const user = await remove("/api/users/1");
   console.log(user);
