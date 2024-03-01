@@ -10,3 +10,25 @@
 #### How to use:
 - Clone and test
 - Swap the static data with your query database
+
+#### Basic usage of fetcher with auth
+```
+import { get, post, remove } from "../utils/auth/";
+
+const Component = async () => {
+
+  // GET
+  const users = await get("/api/users");
+  console.log(users);
+
+  // POST
+  const user = await post("/api/users", { name: "John Doe" });
+  console.log(user);
+
+  // DELETE
+  const user = await remove("/api/users/1");
+  console.log(user);
+
+}
+```
+
