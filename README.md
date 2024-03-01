@@ -19,7 +19,7 @@ npm run dev
 
 #### Basic usage of fetcher with auth
 ```
-import { get, post, remove } from "../utils/auth/";
+import { get, post, put, remove } from "../utils/auth/";
 
 const Component = async () => {
 
