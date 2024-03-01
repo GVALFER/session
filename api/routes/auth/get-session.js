@@ -13,7 +13,7 @@ const USER = {
 
 router.get("/", authProtect(), async (req, res) => {
     try {
-        // DB ONLY
+        // DB QUERY
         // const { id } = req.user;
         // const client = await prisma.users.findUnique({
         //     where: { id: id },
