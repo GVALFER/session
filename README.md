@@ -11,6 +11,10 @@
 - Clone and test
 - Swap the static data with your query database
 
+#### Install and test
+- npm i
+- npm run dev
+
 #### Basic usage of fetcher with auth
 ```
 import { get, post, remove } from "../utils/auth/";
